@@ -10,6 +10,7 @@ module com.example.gestion_etudes {
     requires org.kordamp.bootstrapfx.core;
     requires eu.hansolo.tilesfx;
     requires lombok;
+    requires java.sql;
 
     opens com.example.gestion_etudes to javafx.fxml;
     exports com.example.gestion_etudes;
